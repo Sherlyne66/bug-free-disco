@@ -1,0 +1,120 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fresh, healthy chickens and chicks from Reina Talam Ltd. Buy the best poultry products today!">
+    <meta name="keywords" content="chicken farm, poultry, chicks, fresh chickens, affordable poultry, sustainable farm">
+    <meta name="author" content="Reina Talam Ltd">
+    <title>Reina Talam Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    
+        <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <header>
+        <div class="logo">
+            <h1>Reina Talam Ltd</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" id="about-link">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Fresh, Healthy, Good-looking Chickens & Chicks</h2>
+            <p>Your one-stop farm for high-quality poultry. A unique place for the best chickens and chicks.</p>
+            <a href="products.html" class="cta-btn">Shop Now</a>
+        </div>
+    </section>
+
+   
+    <section class="why-choose-us">
+        <h2>Why Choose Us?</h2>
+        <div class="feature-item" data-aos="fade-up">
+            <img src="images/fresh.jpg.webp" alt="Fresh Poultry" aria-label="Fresh poultry">
+            <h3>Fresh, Good-looking & Healthy</h3>
+            <p>Our chickens and chicks are raised with care and quality feed to ensure they're healthy and strong.</p>
+        </div>
+        <div class="feature-item" data-aos="fade-up">
+            <img src="images/sustainable.jpg.webp" alt="Sustainable Practices" aria-label="Sustainable farming practices">
+            <h3>Sustainable Farming</h3>
+            <p>We use environmentally friendly practices to ensure a sustainable future for our farm and your family.</p>
+        </div>
+        <div class="feature-item" data-aos="fade-up">
+            <img src="images/affordable.jpg.jpg" alt="Affordable Prices" aria-label="Affordable poultry prices">
+            <h3>Affordable Prices</h3>
+            <p>We offer the best quality at prices that won't break the bank. Get the best deal for your farm and home!</p>
+        </div>
+    </section>
+
+   
+    <section class="contact-us">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or want to inquire about our products, feel free to reach out to us! We'd love to hear from you.</p>
+        <div class="contact-form">
+            <form action="send_message.php" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+       <footer>
+        <p>&copy; 2025 Reina Talam Ltd. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook">Facebook</a> | <a href="#" aria-label="Instagram">Instagram</a>
+        </div>
+        <div class="newsletter">
+            <form action="subscribe.php" method="POST">
+                <input type="email" placeholder="Your email" required>  
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+
+       <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            
+            const aboutLink = document.getElementById("about-link");
+            if (aboutLink) {
+                aboutLink.addEventListener("click", function(event) {
+                    event.preventDefault();
+                    window.location.href = "about.html";                 });
+            }
+        });
+    </script>
+
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
+
+
+
+

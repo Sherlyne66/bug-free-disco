@@ -1,0 +1,240 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5ECE1;
+    color: #4B2E1D;
+    line-height: 1.6;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #5D4037;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.8em;
+    transition: transform 0.3s ease;
+}
+
+header .logo h1:hover {
+    transform: scale(1.05);
+}
+
+nav {
+    background: #4E3629;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    background: #3E2723;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    background: #6D4C41;
+    color: #F5ECE1;
+}
+
+
+.hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding: 20px;
+}
+
+.hero .hero-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.hero .hero-content p {
+    font-size: 1rem;
+    text-align: center;
+    max-width: 600px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: #5D4037;
+    color: white;
+    padding: 12px 32px;
+    font-size: 1.3em;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background: #6D4C41;
+}
+
+.why-choose-us {
+    background: #E0C3A7;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    font-size: 2.8em;
+    margin-bottom: 40px;
+}
+
+.feature-item {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.feature-item:hover {
+    transform: translateY(-10px);
+}
+
+.feature-item img {
+    width: 100%;
+    max-width: 220px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.product-gallery {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.shop-now-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #5D4037;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.shop-now-btn:hover {
+    background: #6D4C41;
+}
+
+.contact-us {
+    padding: 60px 20px;
+    background: #E0C3A7;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 550px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #5D4037;
+    border-radius: 6px;
+    font-size: 1.1em;
+}
+
+.contact-form button {
+    background: #5D4037;
+    color: white;
+    padding: 14px;
+    font-size: 1.2em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #6D4C41;
+}
+
+footer {
+    background: #3E2723;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
+
